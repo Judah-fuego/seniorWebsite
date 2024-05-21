@@ -25,14 +25,11 @@
     font-size: xx-large; /* Set font size for large screens */
   }
 }
-  .blocksubheading{
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  }
 
   .blockdescription{
     font-family: 'Times New Roman', Times, serif;
+    margin: 3px 2px;
   }
 
   .iamgedescription{

@@ -1,11 +1,17 @@
 import React from 'react';
-import ListOfNames from "@/components/ListOfName";
+
+import ListOfPeople from '@/components/ListOfPeople';
+
+
+
+
 
 
 function AboutUs(){
+   
   return (
     <>
-      <ListOfNames/>
+      <ListOfPeople/>
     </>
   )
 }
