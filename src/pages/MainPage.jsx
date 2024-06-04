@@ -12,6 +12,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Footer from '../components/Footer.jsx';
+
 
 import { ImageLinks } from '../data/MainPageImages.jsx'
 
@@ -34,7 +36,7 @@ function MainPage() {
     <div className='p-3 drop-shadow-sm'>
       <div className=" h-[45%] flex-row flex bg-sky-100 mt-10 drop-shadow-md rounded-md">
         <div className=' w-[50%] lg:h-[590px] p-3 drop-shadow-md '>
-          <AdvancedImage className=' pt-5 pl-5 mb-5 max-h-[80%] w-[90%]' cldImg={mainPhoto}/>
+          <AdvancedImage className=' hover:drop-shadow-md hover:border-r-2 hover:border-2 ml-5 mt-5 mb-5 max-h-[80%] w-[90%]' cldImg={mainPhoto}/>
           <a target="_blank" 
           href="https://maps.app.goo.gl/dkgdi9yw7GJgEysU9">
           <Button 
@@ -44,8 +46,8 @@ function MainPage() {
           </a>
           {/* Add link to google maps location */}
         </div>
-        <div className='flex flex-col p-10 sm:max-w-[35%]'>
-          <p className='lg:text-[100px]'>IGA Seniors 2024</p>
+        <div className='flex flex-col p-10 sm:max-w-[35%] hover:drop-shadow-lg'>
+          <p className='head lg:text-[130px] md:text-[80px] text-[60px] '><span className='bg-orange-400 p-2'>IGA Seniors 2024</span></p>
 
         </div>
       </div>
@@ -57,23 +59,20 @@ function MainPage() {
           <p className='blockheader'>Senior Quotes</p>
           <br/>
           <br/>
-          <ol className='list-none'>
-            <li className='mb-3'>
+          <ol className='list-none '>
+            <li className='mb-5 lg:text-[30px] hover:drop-shadow-sm hover:bg-slate-100 p-2 rounded-md'>
               <p><span className='italic'>&quot;Ungs Kungs&quot;</span> - Ye An</p>
             </li>
-            <li className='mb-3'>
+            <li className='mb-5 lg:text-[30px] hover:drop-shadow-sm hover:bg-slate-100 p-2 rounded-md'>
               <p><span className='italic'>&quot;I carry IGA like the Notre Dame guy. &quot;</span> - Judah</p>
             </li>
-            <li className='mb-3'>
+            <li className='mb-5 lg:text-[30px] hover:drop-shadow-sm hover:bg-slate-100 p-2 rounded-md'>
               <p><span className='italic'>&quot; Finni Ginni Zenki &quot;</span> - Austin and YK</p>
-            </li>
-            <li className='mb-3'>
-              <p><span className='italic'>&quot;  &quot;</span> - Younice</p>
             </li>
           </ol>
         </div>
         <div className="mt-10">
-          <AdvancedVideo cldVid={myVideo} controls className='mb-3'/>
+          <AdvancedVideo cldVid={myVideo} controls className='mb-3 hover:drop-shadow-md'/>
           <a target="_blank" 
           href="https://maps.app.goo.gl/6nCFgCKc6iyE8m3u9">
           <Button 
@@ -107,6 +106,8 @@ function MainPage() {
         </div>
       </div>
     </div>
+    <Footer/>
+
     
 
 

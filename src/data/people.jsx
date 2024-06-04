@@ -32,7 +32,7 @@ export const data = [
   {
     name: "Younice (Seoyun) Choi",
     description: 'If Younice had to bring two things to a deserted Island it would be League... and her Bible. Although our convos were short and far between, I saw the heart of God and one who loves her community.',
-    image: 'drink',
+    image: 'StudentFaces/YouniceFace_wvsjis',
   },
   {
     name: "Stefania Ghitescu",
@@ -81,7 +81,7 @@ export const data = [
   },
   {
     name: "Nora Oh",
-    description: 'If we have a class reunion Nora is gonna plan it. She got tunnel vision straight towards success and Jesus. She is a beautiful person and on every guys top 3 at IGA.',
+    description: 'If we have a class reunion Nora is gonna plan it. She got tunnel vision straight towards success and Jesus.',
     image: 'StudentFaces/NoraFace_ii1j2c',
   },
   {
@@ -91,13 +91,14 @@ export const data = [
   },
   {
     name: "Rain Suiter",
-    description: 'Mother FRICKEERRRR! Rain is an amiable fellow that loves his friends, family, and God. He has some insane wisdom which he seems to pull out of his butt. NO MORE REEELSSSS IPAD KID!!',
+    description: 'CRODIEEEE! Rain is an amiable fellow that loves his friends, family, and God. He has some insane wisdom which he seems to pull out of his butt. NO MORE REEELSSSS IPAD KID!!',
     image: 'StudentFaces/RainFace_saslr1',
   },
   {
     name: "Josiah Thoutenhoofd",
     description: 'Josiah is a funny and fascinating human. If you see him on his computer he is probably looking at cars or watching yt. He is known to have the most "aura" in the class. ',
     image: '',
+    // TODO: Add Jo and Younice Image
   },
   {
   name: "Ethan Wright",

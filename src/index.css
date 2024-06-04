@@ -35,5 +35,10 @@
   .iamgedescription{
     text-align: center;
     font-size: large;
-    
+  }
+
+  .head{
+    font-family: "Amatic SC";
+    font-weight: 200;
+    font-style: bold;
   }

@@ -33,7 +33,7 @@ function ListOfPeople(){
         <li 
         id={`item-${index}`} 
         key={index} 
-        className='border-2 border-slate-300 lg:w-[500px] md:w-[600px] sm:w-[400px] h-[200px bg-slate-200 drop-shadow-sm rounded-md p-4'>
+        className='hover:drop-shadow-lg border-2 border-slate-300 lg:w-[500px] md:w-[600px] sm:w-[400px] h-[200px bg-slate-200 drop-shadow-sm rounded-md p-4'>
           <div className='flex flex-row gap-x-3'>
             <AdvancedImage 
             cldImg={cld.image(`${item.image}`).resize(Resize.scale().width(150).height(150))}/>

@@ -1,23 +1,21 @@
 import { Route, Routes} from "react-router-dom";
 import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
 import MainPage from "./pages/MainPage.jsx";
 import AboutUs from './pages/AboutUs.jsx';
+import Popeyes from './pages/Popeyes.jsx';
 
 
 
 function App() {
 
   return (
-        <Header>
+        <Header className="">
           <Routes>
             <Route path="/seniorWebsite/mainpage" element={<MainPage/>}/>
             <Route path="/seniorWebsite/aboutus" element={<AboutUs/>}/>
+            <Route path="/seniorWebsite/popeyeszone" element={<Popeyes/>}/>
           </Routes>
-          <Footer/>
         </Header>
-        
-
   )
 }
 

@@ -104,7 +104,7 @@ const Footer = () => {
       {scores.length > 0 ? (
         <div className='p-10 grid grid-cols-6 gap-4'>
           {scores.map(score => (
-            <div key={score.id} className='p-2 bg-sky-700 text-white border-2 border-transparent hover:border-sky-900 rounded-md drop-shadow-sm hover:drop-shadow-lg'>
+            <div key={score.id} className='p-2 bg-orange-500 text-white border-2 border-transparent hover:border-orange-7 00 rounded-md drop-shadow-sm hover:drop-shadow-lg'>
               <p>Name: {score.Name}</p>
               <p>Score: {score.Score}</p>
             </div>
